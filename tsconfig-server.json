@@ -1,10 +1,12 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "module": "CommonJS",
     "noEmit": false,
-    "outDir": "./dist"
+    "outDir": "./dist/app"
   },
   "include": [
-    "src/serve.ts"
+    // Note that tsx files are not included
+    "src/**/*.ts"
   ]
 }

@@ -4,7 +4,7 @@ A project template with Solid, vite-plugin-ssr, Tailwind, and Expressjs.
 
 ## Usage
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+Those templates dependencies are maintained via [pnpm] via `pnpm up -Lri`.
 
 This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
 
@@ -25,6 +25,12 @@ The page will reload if you make edits.<br>
 
 ### `npm run build`
 
-Builds the app for production. See [vps's documentation][vite-deploy] for deployment options.
+Builds the app for production. See [vps's documentation][vps-deploy] for deployment options.
 
-[vite-deploy]: https://vite-plugin-ssr.com/deploy
+### `npm run start`
+
+Start an [express] server that serves built app.
+
+[pnpm]: https://pnpm.io
+[vps-deploy]: https://vite-plugin-ssr.com/deploy
+[express]: https://expressjs.com/

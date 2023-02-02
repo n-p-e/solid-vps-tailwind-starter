@@ -14,5 +14,5 @@ insert_final_newline = true
 [{*.yml,*.yaml,*.json}]
 indent_size = 2
 
-[{*.html,*.js,*.jsx,*.ts,*.tsx}]
+[{*.html,*.js,*.jsx,*.cjs,*.mjs,*.ts,*.tsx}]
 indent_size = 2
