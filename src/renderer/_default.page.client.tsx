@@ -1,4 +1,4 @@
-import { hydrate } from 'solid-js/web'
+import { hydrate, render as renderToDom } from 'solid-js/web'
 import { PageContext } from '../page-context'
 import App from './App'
 
