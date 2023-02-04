@@ -10,9 +10,9 @@ app.get('*', async (req, res, next) => {
   if (!httpResponse) {
     return next()
   }
-  const { pipe, statusCode, contentType, earlyHints } = httpResponse
+  const { statusCode, contentType } = httpResponse
   res.status(statusCode).type(contentType)
-  pipe(res)
+  httpResponse.pipe(res)
 })
 
 app.listen(3000)
