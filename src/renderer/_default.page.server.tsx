@@ -1,6 +1,6 @@
 import { Component } from 'solid-js'
 import { HydrationScript, renderToStream } from 'solid-js/web'
-import { escapeInject, stampPipe } from 'vite-plugin-ssr'
+import { escapeInject, stampPipe } from 'vite-plugin-ssr/server'
 import { PageContext } from '../page-context'
 import App from './App'
 

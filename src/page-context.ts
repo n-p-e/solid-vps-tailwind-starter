@@ -1,6 +1,6 @@
-import { PageContextBuiltIn } from 'vite-plugin-ssr'
+import type { PageContextBuiltInServer } from 'vite-plugin-ssr/types'
 
-export interface PageContext extends PageContextBuiltIn {
+export interface PageContext extends PageContextBuiltInServer {
   pageProps: {}
   exports: {
     title?: string | (() => string)
